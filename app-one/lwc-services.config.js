@@ -3,7 +3,8 @@
 //module.exports = {
     //resources: [{ from: 'src/resources', to: 'dist/resources' }]
 //};
-const outputDir = '../WEBSERVER/LWC4WEBSERVER';
+//const outputDir = '../WEBSERVER/LWC4WEBSERVER';
+const outputDir = '../ELECTRON/src/LWC4ELECTRON';
 // eslint-disable-next-line no-undef
 module.exports = {
   buildDir: `${outputDir}`,

@@ -665,8 +665,8 @@ class SldsElement extends lwc__WEBPACK_IMPORTED_MODULE_1__["LightningElement"] {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/ats/Documents/lwc-open/app-one/node_modules/error-overlay-webpack-plugin/lib/entry-basic.js */"./node_modules/error-overlay-webpack-plugin/lib/entry-basic.js");
-module.exports = __webpack_require__(/*! /Users/ats/Documents/lwc-open/app-one/src/index.js */"./src/index.js");
+__webpack_require__(/*! /Users/ats/Documents/lwc-open/app-one/app-one/node_modules/error-overlay-webpack-plugin/lib/entry-basic.js */"./node_modules/error-overlay-webpack-plugin/lib/entry-basic.js");
+module.exports = __webpack_require__(/*! /Users/ats/Documents/lwc-open/app-one/app-one/src/index.js */"./src/index.js");
 
 
 /***/ })
