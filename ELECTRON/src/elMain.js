@@ -1,4 +1,5 @@
 const { app, BrowserWindow, ipcMain } = require("electron");
+require ('./LWC4ELECTRON/resources/elMainHelper');
 
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
 if (require("electron-squirrel-startup")) {
