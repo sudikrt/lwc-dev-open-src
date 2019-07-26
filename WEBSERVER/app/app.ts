@@ -18,7 +18,7 @@ app.use(express.static(path.join(__dirname + "/../", "public")));
 
 // Serve SLDS from the node-modules package
 // Serve LWC from LWC4HEROKU folder
-app.use("/lwc", express.static(path.join(__dirname, "/../LWC4WEBSERVER/")));
+//app.use("/lwc", express.static(path.join(__dirname, "/../LWC4WEBSERVER/")));
 app.use("/slds", express.static(path.join(__dirname, "/../node_modules/@salesforce-ux/design-system/assets/")));
 
 app.get("/", (req, res, next) => {

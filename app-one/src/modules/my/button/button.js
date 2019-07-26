@@ -21,4 +21,18 @@ export default class Button extends SldsElement {
                 alert(`Failed: ${error}`);
             });
     }
+    showDialog () {
+        this.dispatchEvent (new CustomEvent ('toelectron', {
+            detail : {
+                type : 'showDialog',
+                message: this.message,
+                callback: detail => {
+                    // eslint-disable-next-line no-alert
+                    alert(`Button clicked (callback): ${detail.buttonClicked}`);
+                }
+            },
+            composed : true,
+            bubbles : true
+        }));
+    }
 }
